@@ -3,5 +3,7 @@
   color: #6c0503;
   font-size:25px;
   dispaly: flex;
-  
+  justify-content:flex-end;
+  margin:30px;
+  padding:10px;
 }
