@@ -1,5 +1,7 @@
 
 .top {
-text-color: orange;
+  color: #6c0503;
   font-size:25px;
+  dispaly: flex;
+  
 }
