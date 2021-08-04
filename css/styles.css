@@ -1,9 +1,10 @@
 
 .top {
-  color: #6c0503;
+  color: #828c84;
   font-size:25px;
   dispaly: flex;
   justify-content:flex-end;
   margin:30px;
   padding:10px;
+  baground:linear-gradient:(#6c0503,#FFFFFF)
 }
