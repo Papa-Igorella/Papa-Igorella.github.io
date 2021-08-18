@@ -39,12 +39,12 @@ header {
 }
 
 .logo {
-
-    position: absolute;
+    display: block;
+    background: none;
     width: 100px;
-    height: 32px;
-    left: 685px;
-    top: 42px;
+    border:0;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 nav {
@@ -96,19 +96,23 @@ ul {
 }
 
 .button {
-
+    display: inline-block;
     width: 285px;
     height: 80px;
     left: 120px;
     top: 435px;
+    border:none;
+    text-align: center;
+    text-decoration: none;
     background: #D89999;
     border-radius: 40px;
-    border: none;
     margin-top: 30px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
 }
 
 .buttonCatalog {
-    position: relative;
+
+    padding-top: 12px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -224,7 +228,6 @@ ul {
 
     width: 50px;
     height: 15px;
-    background-image: url(/image/Arrow1.svg);
 
 }
 
@@ -232,7 +235,6 @@ ul {
     margin-left: 50px;
     width: 50px;
     height: 15px;
-    background-image: url(/image/Arrow2.svg);
 }
 
 .catalogChapter {
@@ -288,5 +290,50 @@ ul {
     font-weight: bold;
     font-size: 36px;
     letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.sale {
+    position: absolute;
+    display: flex;
+    width: 1200px;
+    height: 391px;
+    left: 120px;
+    top: 2018px;
+    background: #AE7C78;
+}
+
+.saleImg{
+    width: 50%;
+float: end;
+}
+
+.saleContent {
+    padding-top: 30px;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.saleTitle{
+    width: 387px;
+    padding-left: 110px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.saleDescription {
+    width: 387px;
+    height: 145px;
+    padding-left: 110px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
     color: #FFFFFF;
 }
