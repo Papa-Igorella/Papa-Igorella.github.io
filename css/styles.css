@@ -42,7 +42,7 @@ header {
     display: block;
     background: none;
     width: 100px;
-    border:0;
+    border: 0;
     padding-top: 10px;
     padding-left: 10px;
 }
@@ -101,13 +101,13 @@ ul {
     height: 80px;
     left: 120px;
     top: 435px;
-    border:none;
+    border: none;
     text-align: center;
     text-decoration: none;
     background: #D89999;
     border-radius: 40px;
     margin-top: 30px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
 .buttonCatalog {
@@ -303,9 +303,9 @@ ul {
     background: #AE7C78;
 }
 
-.saleImg{
+.saleImg {
     width: 50%;
-float: end;
+    float: end;
 }
 
 .saleContent {
@@ -314,7 +314,7 @@ float: end;
     justify-content: space-around;
 }
 
-.saleTitle{
+.saleTitle {
     width: 387px;
     padding-left: 110px;
     font-family: 'Playfair Display', serif;
@@ -335,5 +335,6 @@ float: end;
     font-weight: normal;
     font-size: 24px;
     line-height: 29px;
+
     color: #FFFFFF;
 }
