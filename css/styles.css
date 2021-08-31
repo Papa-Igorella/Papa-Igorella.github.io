@@ -31,6 +31,7 @@ header {
 /* *** SECTION PROMOTION *** */
 .promotion {
     color:#AE7C78;
+    margin: 80px 120px 80px 120px;
 }
 .description {
     font-size: 24px;
@@ -47,7 +48,6 @@ header {
     font-weight: normal;
     font-size: 44px;
     line-height: 59px;
-
 }
 
 .firstImg {
@@ -70,6 +70,10 @@ header {
 
 /* *** SECTION ADVANTAGES *** */
 
+.advantages {
+    margin: 48px 120px 80px 120px;
+}
+
 .promotionTitle {
     font-weight: 500;
 }
@@ -77,6 +81,7 @@ header {
 /* *** SECTION POPULAR *** */
 
 .popular {
+    margin: 80px 323px 80px 323px;
     color: #AE7C78;
 }
 
@@ -96,6 +101,9 @@ header {
 }
 
 /* *** SECTION CATALOG *** */
+.catalogChapter {
+    margin: 80px 120px 80px 120px;
+}
 
 .catalogContent {
     padding-top: 183px;
@@ -132,7 +140,7 @@ header {
 /* *** SECTION SALE *** */
 
 .sale {
-
+    margin: 80px 120px 80px 120px;
     width: 1200px;
     height: 391px;
     background-color: #AE7C78;
@@ -152,6 +160,7 @@ header {
 .steps {
     text-align: center;
     color:#AE7C78;
+    margin: 80px 120px ;
 }
 
 .stepsBlock {
@@ -160,4 +169,114 @@ header {
     display: flex;
 }
 
-/* доделать отступы в заголовке!
+/* *** SECTION NEWS *** */
+
+.news {
+    margin: 80px 120px;
+    color: #AE7C78;
+}
+.newsText{
+    width: 490px;
+}
+.socials {
+    height: 20px;
+}
+
+.instagram {
+    height: 20px;
+    width: 20px;
+    border: none;
+    text-decoration:none;
+    background-repeat: no-repeat;
+    background-image: url(../image/instagram-icon.svg);
+}
+
+.twiter {
+    height: 20px;
+    width: 26px;
+    border: none;
+    text-decoration:none;
+    background-repeat: no-repeat;
+    background-image: url(../image/twitter-icon.svg);
+}
+
+.facebook {
+    height: 20px;
+    width: 12px;
+    border: none;
+    text-decoration:none;
+    background-repeat: no-repeat;
+    background-image: url(../image/facebook-icon.svg);
+}
+
+.newsPics {
+    padding-left: 500px;
+}
+
+/* *** SECTION FEEDBACK *** */
+
+.feedback {
+    display: block;
+    width: 1200px;
+    height: 308px;
+    margin: 80px 120px 80px 120px;
+    color: #AE7C78;
+    text-align: center;
+    border: 1px solid #AE7C78;
+}
+
+.feedbackContent ul {
+    display: flex;
+}
+
+/* *** SECTION CONTACTS *** */
+
+.contacts {
+    background-image: url(../image/map.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 645px;
+}
+
+.contactsContent {
+    width: 386px;
+    height: 520px;
+    box-shadow: 0 4px 40px rgba(217, 217, 217, 0.3);
+    border-radius: 12px;
+    padding: 52px 832px 73px 222px;
+    color: #AE7C78;
+
+}
+
+/* *** SECTION CONTACTS *** */
+
+footer {
+
+    background-color: #AE7C78;
+    width: 1440px;
+}
+
+.instagramFooter {
+    height: 20px;
+    width: 20px;
+    border: none;
+    background-repeat: no-repeat;
+    background-image: url(../image/instagram-footer.svg);
+}
+
+.twiterFooter {
+    height: 20px;
+    width: 26px;
+    border: none;
+    background-repeat: no-repeat;
+    background-image: url(../image/twitter-footer.svg);
+}
+
+.facebookFooter {
+    height: 20px;
+    width: 12px;
+    border: none;
+    background-repeat: no-repeat;
+    background-image: url(../image/facebook-footer.svg);
+}
+
