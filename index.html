@@ -1,190 +1,95 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 <head>
-    <title>Flowers</title>
-    <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
-    <meta content="Продажа цветов" name="keywords"/>
-    <meta content="Flowers shop" name="description"/>
-    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Onix - phpCourse - Lesson1</title>
+  <meta content="Info for search ingenue's" name="keywords"/>
+  <meta content="My task for lesson 1 on HTML" name="description"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
-<body>
-
+<body style="margin:2em 0 0 2em;font-family: Montserrat,serif;">
 <header>
-    <div class="line2"></div>
-    <div class="line3"></div>
-
-    <nav>
-        <ul class="leftMenu">
-            <li>
-                <a href="https://google.com">Каталог</a>
-            </li>
-            <li>
-                <a href="https://google.com">Доставка и оплата</a>
-            </li>
-            <li>
-                <a href="https://google.com">Отзывы</a>
-            </li>
-        </ul>
-        <div>
-            <a class="logo" href="https://google.com" target="_blank">
-                <img src="image/Logo.svg" alt="logo">
-            </a>
-        </div>
-        <ul class="rightMenu">
-            <li>
-                <a href="https://google.com">Спецпредложение</a>
-            </li>
-            <li>
-                <a href="https://google.com">Контакты</a>
-            </li>
-            <li>
-                <a href="https://google.com">Корзина</a>
-            </li>
-
-        </ul>
-    </nav>
-
+  <div style="display: flex; ">
+    <a href="/"><img src="https://onix.academy/wp-content/themes/my_theme/assets/img/logo.svg" alt="Onyx-logo">
+    </a>
+    <ul style="width:50%;
+        display:flex;
+        justify-content: space-around;
+        font-size: 28px;
+        list-style-type: none;">
+      <li><a style="text-decoration:none;" href="https://google.com">Google</a></li>
+      <li><a style="text-decoration:none;" href="https://www.apple.com/ua/">Apple</a></li>
+      <li><a style="text-decoration:none;" href="https://onix-systems.com/">Onix</a></li>
+      <li>
+        <form target="_blank">
+          <button style="height:3em; background:yellow; border-radius: 10px; border: none;">Contact us</button>
+        </form>
+      </li>
+    </ul>
+  </div>
 </header>
-<section class="promotion">
-    <div class="blocOne">
-        <h1>Авторские букеты<br> <span class="italic">в Кропивницком</span></h1>
-        <p class="description">Оригинальные свежие букеты <br> с доставкой по всему городу</p>
-        <div>
-            <a class="button" href="https://google.com" target="_blank"><p class="buttonCatalog">Смотреть
-                каталог</p>
-            </a>
-        </div>
+<main>
+  <h1>Lesson 1</h1>
+  <p>Simple HTML page without using CSS (not adapted for mobile devices)</p>
+  <div style="display:flex;margin-top:3em;">
+    <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/kVQjwHH7604"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write;
+            encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+    </iframe>
+    <div style="padding:3em;">
+      <h2>Onix 3D Art Showreel 2020</h2>
+      <p>As a leading development company, the <a href="https://onix-systems.com/dedicated-team">Onix team</a> of
+        experienced virtual reality developers<br>
+        and augmented reality developers provides the solutions<br>
+        you need to further your hold on your target market and increase customer traffic.<br>
+        Virtual Reality (VR) is a new medium and a powerful tool<br>
+        that lets the user interact in places in the real or imagined worlds,<br>
+        while Augmented Reality (AR) makes use of the existing environment <br>
+        and superimposes new information on top of it.</p>
     </div>
-    <div class="images">
-        <img alt="flowers" class="firstImg"
-             src="image/anna-tukhfatullina-food-photographer-stylist-bq6Gd7pQznU-unsplash 1.png">
-        <img alt="flowers" class="secondImg" src="image/taisiia-shestopal-JZDyFwGAEqY-unsplash 1.png">
+  </div>
+  <div style="display:flex;margin-top:3em;">
+    <img alt="BMW-new-car"
+         style="width:35em; height:22em;"
+         src="https://www.reuters.com/resizer/0gomICnipstvx-_A-rt55ebNFGY=/960x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/7UOKRCYY7NJTFHXVVO5XFZLCK4.jpg">
+    <div style="padding:5em;">
+      <h2>BMW changing color - Concept car</h2>
+      <p>The concept car, called the BMW iX Flow,<br>
+        uses electronic ink technology normally found in e-readers<br>
+        to transform the car's exterior into a variety of patterns<br>
+        in gray and white.
+      </p>
     </div>
-</section>
-<section class="advantages">
-    <div>
-    <img alt="delivery" class="imgAdv" src="image/icon1.svg">
-    <div class="adv">
-        <p>
-            Быстрая доставка
-        </p>
-        <p>
-            Можем собрать букет и передать<br>
-            его в доставку всего за час.
-        </p>
-    </div>
-    </div>
-    <img alt="flower" class="imgAdv" src="image/icon2.svg">
-    <div class="adv">
-        <p>
-            Всегда свежие цветы
-        </p>
-        <p>
-            Тщательно следим за состоянием<br>
-            цветов, а опытные флористы<br>
-            отбирают для букетов каждый<br>
-            цветок.
-        </p>
-    </div>
-
-    <img alt="photo" class="imgAdv" src="image/icon3.svg">
-    <div class="adv">
-        <p>
-            Отправляем фото цветов
-        </p>
-        <p>
-            Перед доставкой сделаем<br>
-            фотографию букета и отправим<br>
-            вам.
-        </p>
-    </div>
-</section>
-<section class="popular">
-    <h2 class="popularTitle">
-        Популярные букеты
-    </h2>
-    <div class="popularContent">
-
-        <div class="adv">
-            <h2 class="flowerTitle">
-                Букет «Нежность»
-            </h2>
-            <p>
-                Элегантный букет, который станет отличным<br>
-                подарком на день рождения или юбилей.
-            </p>
-            <h4 class="dimensions">
-                30 × 40 см
-            </h4>
-            <h2>
-                3600 руб.
-            </h2>
-            <a class="button" href="https://google.com" target="_blank">
-                <p class="buttonCatalog">Заказать</p>
-            </a>
-        </div>
-        <img alt="flowers" class="popularImg" src="image/popular.png">
-    </div>
-
-    <div class="slider">
-            <a class="previous" href="https://google.com" target="_blank">
-                <img src="image/Arrow1.svg" alt="logo">
-            </a>
-            <a class="next" href="https://google.com" target="_blank">
-                <img src="image/Arrow2.svg" alt="logo">
-            </a>
-    </div>
-
-</section>
-<section class="catalogChapter">
-    <div class="catalogChapterOne">
-        <div class="backGroundCatalog">
-            <div class="catalogContent">
-                <h2 class="catalogChapterTitle">Свадебные букеты</h2>
-                <p class="buttonCatalog">
-                    Букеты для невест
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="catalogChapterTwo">
-        <div class="backGroundCatalog">
-            <div class="catalogContent">
-                <h2 class="catalogChapterTitle">Букеты с пионами</h2>
-                <p class="buttonCatalog">
-                    Букеты с сезонными пионами
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="catalogChapterThree">
-        <div class="backGroundCatalog">
-            <div class="catalogContent">
-                <h2 class="catalogChapterTitle">Выбрать букет</h2>
-                <p class="buttonCatalog">
-                    Букеты в ассортименте
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="sale">
-    <div class="saleContent">
-        <h2 class="saleTitle">Скидка 10% <br>
-            на первый заказ</h2>
-        <p class="saleDescription">
-            Если заказываете у нас букет<br>
-            впервые — при оформлении<br>
-            заказа введите промокод<br>
-            «Botanika2021» и получите<br>
-            скидку 10%.
-        </p>
-    </div>
-    <img class="saleImg" src="image/florist-makes-beautiful-bouquet-studio-1.png"
-         alt="florist-makes-beautiful-bouquet-studio">
-</section>
+  </div>
+</main>
+<footer>
+  <ul style="display:flex;
+        justify-content: space-around;
+        margin-top:5em;
+        list-style-type: none;">
+    <li><p>© 2022 Igor Lyashok</p></li>
+    <li>
+      <a href="https://twitter.com" target="_blank">
+        <img alt="Upwork"
+             style="width: 5em;
+               height:5em;"
+             src="https://apksshare.com/wp-content/uploads/2021/06/Upwork-for-Freelancers-APK-MOD-Download-1.36.1.png">
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com" target="_blank">
+        <img alt="twitter"
+             style="width: 5em;
+               height:5em;"
+             src="https://cdn-icons-png.flaticon.com/512/124/124021.png">
+      </a>
+    </li>
+  </ul>
+</footer>
 </body>
 </html>
