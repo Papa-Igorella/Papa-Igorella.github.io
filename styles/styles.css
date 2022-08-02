@@ -1,0 +1,165 @@
+body {
+    font-family: 'Montserrat';
+    background: #E5E5E5;
+
+}
+
+/* main content */
+.page-content {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.main-content {
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 105px 90px;
+}
+
+/* about */
+.about-position {
+    margin-bottom: 20px;
+}
+
+.about-name {
+    margin-bottom: 24px;
+}
+
+.about-description {
+    width: 400px;
+}
+
+.about {
+    margin-bottom: 40px;
+}
+
+/* project */
+.project {
+    margin-bottom: 50px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+.project-list li::marker,
+.bold {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    padding-left: 15px;
+}
+
+/* work */
+.work {
+    margin-bottom: 45px;
+}
+
+.work h3,
+.work div h4,
+.work p {
+    margin-bottom: 10px;
+}
+
+.orange {
+    color: #FB6D3A;
+}
+
+.date {
+    color: #A8A8A8;
+}
+
+/* education */
+.top-bottom-margin-education {
+    margin: 10px 0;
+}
+
+.education-shadow h3,
+.education-shadow h4,
+.education-shadow h5,
+.education-shadow p {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* sidebar */
+.sidebar {
+    width: 370px;
+    background: #1E2939;
+    color: #FFFFFF;
+    padding: 0;
+}
+
+.sidebar div,
+.photo {
+    margin-bottom: 50px;
+}
+
+.photo {
+    margin-top: 40px;
+    width: 370px;
+}
+
+.sidebar a {
+    margin-left: 10px;
+    opacity: 0.5;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+.sidebar li::marker {
+    color: #FB6D3A;
+    font-size: 14.5px;
+    padding: 0;
+}
+
+li,
+p,
+.sidebar a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h2,
+h5 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+h3,
+h4,
+.sidebar p {
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    line-height: 27px;
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.sidebar-info {
+    margin-left: 40px;
+}
